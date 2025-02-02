@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class journalApp {
+public class journalApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(journalApp.class, args);
+		SpringApplication.run(journalApplication.class, args);
 	}
 
 }
