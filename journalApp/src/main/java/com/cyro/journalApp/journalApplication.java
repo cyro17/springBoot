@@ -8,5 +8,4 @@ public class journalApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(journalApplication.class, args);
 	}
-
 }

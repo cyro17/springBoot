@@ -1,16 +1,24 @@
 package com.cyro.journalApp.entity;
 
+
+import org.bson.types.ObjectId;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.time.LocalDateTime;
+
+@Document(collection = "journal_entries")
 public class JournalEntry {
 
-    private long id;
+    private ObjectId id;
     private  String title;
     private  String content;
+    private LocalDateTime date;
 
-    public long getId(){
+    public ObjectId getId(){
         return  this.id;
     }
 
-    public void setId(long id) {
+    public void setId(ObjectId id) {
         this.id = id;
     }
 
@@ -28,5 +36,13 @@ public class JournalEntry {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public void setDate(LocalDateTime date){
+        this.date = date;
+    }
+
+    public LocalDateTime getDate() {
+        return this.date;
     }
 }

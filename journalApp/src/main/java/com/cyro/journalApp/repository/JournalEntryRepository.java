@@ -1,8 +1,9 @@
 package com.cyro.journalApp.repository;
 
 import com.cyro.journalApp.entity.JournalEntry;
+import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface JounralEntryRepository extends MongoRepository<JournalEntry, String> {
+public interface JournalEntryRepository extends MongoRepository<JournalEntry, ObjectId> {
 
 }
