@@ -18,8 +18,8 @@ public class JournalEntry {
         return  this.id;
     }
 
-    public void setId(ObjectId id) {
-        this.id = id;
+    public void setId(String id_) {
+        this.id = new ObjectId(id_);
     }
 
     public String getTitle() {
