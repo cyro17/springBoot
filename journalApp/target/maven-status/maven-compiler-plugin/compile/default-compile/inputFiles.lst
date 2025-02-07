@@ -1,0 +1,10 @@
+/Users/cyro_dev/Documents/codes/Java/spring-boot/journalApp/src/main/java/com/cyro/journalApp/controller/Healthcheck.java
+/Users/cyro_dev/Documents/codes/Java/spring-boot/journalApp/src/main/java/com/cyro/journalApp/controller/JournalEntryController.java
+/Users/cyro_dev/Documents/codes/Java/spring-boot/journalApp/src/main/java/com/cyro/journalApp/controller/UserController.java
+/Users/cyro_dev/Documents/codes/Java/spring-boot/journalApp/src/main/java/com/cyro/journalApp/entity/JournalEntry.java
+/Users/cyro_dev/Documents/codes/Java/spring-boot/journalApp/src/main/java/com/cyro/journalApp/entity/User.java
+/Users/cyro_dev/Documents/codes/Java/spring-boot/journalApp/src/main/java/com/cyro/journalApp/journalApplication.java
+/Users/cyro_dev/Documents/codes/Java/spring-boot/journalApp/src/main/java/com/cyro/journalApp/repository/JournalEntryRepository.java
+/Users/cyro_dev/Documents/codes/Java/spring-boot/journalApp/src/main/java/com/cyro/journalApp/repository/UserRepository.java
+/Users/cyro_dev/Documents/codes/Java/spring-boot/journalApp/src/main/java/com/cyro/journalApp/service/JournalEntryService.java
+/Users/cyro_dev/Documents/codes/Java/spring-boot/journalApp/src/main/java/com/cyro/journalApp/service/UserService.java
