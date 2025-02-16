@@ -43,6 +43,7 @@ public class JournalEntryController {
         try {
             Authentication auth = SecurityContextHolder.getContext().getAuthentication();
             String userName = auth.getName();
+
             journalEntryService.saveEntry(entry, userName);
             return new ResponseEntity<>(entry, HttpStatus.CREATED);
         } catch (Exception e){

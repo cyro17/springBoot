@@ -31,10 +31,29 @@ public class UserService {
         }
     }
 
-    public void saveAdmin(User user){
-        user.setPassword(encoder.encode(user.getPassword()));
-        user.setRoles(Arrays.asList("USER", "ADMIN"));
+    public boolean saveAdmin(User user){
+        try {
+            user.setPassword(encoder.encode(user.getPassword()));
+            user.setRoles(Arrays.asList("USER", "ADMIN"));
+            userRepository.save(user);
+            return  true;
+        } catch (Exception e){
+            return  false;
+        }
     }
+
+//    public boolean createNewAdmin(User user){
+//        try {
+//            user.setPassword(encoder.encode(user.getPassword()));
+//            user.setRoles(Arrays.asList("USER", "ADMIN"));
+//            userRepository.save(user);
+//            return  true;
+//        } catch (Exception e){
+//            return  false;
+//        }
+//    }
+
+
 
     public void saveUser(User user){
         userRepository.save(user);
