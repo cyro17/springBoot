@@ -1,0 +1,13 @@
+spring:
+  application:
+  name : Security Demo 3
+
+  data:
+    mongodb :
+      uri:
+        mongodb+srv://cyron:iGKwXO7lE8WklOEF@cluster0.jod7m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database : Demo3
+      auto-index-creation: true
+
+server:
+  port: 8084
